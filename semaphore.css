@@ -1,0 +1,43 @@
+/* Semaphore Alerts | (c) 2016 Kabir Goel | MIT License */
+
+.semaphore-alert {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+    font-size: 1.8rem;
+    position: fixed;
+    width: 100%;
+    transition: background-color .5s, color .5s, padding .5s, height .5s, width .5s;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+.semaphore-alert--content-wrapper {
+    position: relative;
+}
+
+.semaphore-alert--cross {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.semaphore-alert-success {
+    background-color: #00E676;
+}
+
+.semaphore-alert-error {
+    background-color: #FF5252;
+}
+
+.semaphore-alert-warning {
+    background-color: #FFEA00;
+    color: #333;
+}
+
+.semaphore-alert-default {
+    background-color: #FFFFFF;
+    color: #000;
+}
