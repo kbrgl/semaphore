@@ -1,4 +1,4 @@
-# Semaphore
+![](semaphore.png)
 ## Installing
 Clone the repo somewhere in your website directory, then include this in your HTML:
 ```html
